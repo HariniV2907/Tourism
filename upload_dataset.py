@@ -1,6 +1,7 @@
-from huggingface_hub import login
+from huggingface_hub import upload_folder
 
-import os
-login(token=os.getenv("HF_TOKEN"))
-
-print("Dataset upload step executed")
+upload_folder(
+    folder_path="https://github.com/HariniV2907/Tourism",  
+    repo_id="Harini2973/Data",
+    repo_type="dataset"
+)
