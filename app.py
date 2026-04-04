@@ -1,6 +1,9 @@
 
+st.write("App started...") 
+
 # load the model
 model = joblib.load("model.pkl")
+st.write("Model loaded...") 
 
 # title of the application
 st.title("Tourism Prediction App")
