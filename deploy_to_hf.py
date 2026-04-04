@@ -4,7 +4,7 @@ import os
 # login using GitHub secret
 login(token=os.getenv("HF_TOKEN"))
 
-repo_id = "Harini2973/tourism-models"   # space name
+repo_id = "Harini2973/tourism_model"   # space name
 
 # upload entire project folder
 upload_folder(
