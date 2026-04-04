@@ -4,7 +4,7 @@ import os
 # Login using GitHub secret
 login(token=os.environ["HF_TOKEN"])
 
-repo_id = "Harini2973/Data"   # your dataset repo
+repo_id = "Harini2973/Data"  
 
 # Create repo if not exists
 create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
