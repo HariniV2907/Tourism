@@ -8,7 +8,7 @@ repo_id = "Harini2973/tourism_model"   # space name
 
 # upload entire project folder
 upload_folder(
-    folder_path="https://github.com/HariniV2907/Tourism",   # current repo
+    folder_path=".",   # current repo
     repo_id=repo_id,
     repo_type="space"
 )
